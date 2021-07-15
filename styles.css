@@ -1,0 +1,269 @@
+:root {
+  --background-color: #fff;
+  --text-color: #0a2140;
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: CrimsonPro;
+  src: url(Crimson_Pro/CrimsonPro-Light.ttf);
+}
+
+@font-face {
+  font-family: Recursive;
+  src: url(Recursive/Recursive-Regular.ttf);
+}
+
+[data-theme="dark"] {
+  --background-color: rgb(18, 23, 35);
+  --text-color: #fff;
+}
+
+body {
+  margin: 0px;
+  background-color: var( --background-color);
+  color: var( --text-color);
+  font-size: 18px;
+}
+
+.layout {
+  padding: 16px;
+}
+
+/* .heading {
+  color: var( --text-color);
+  font-size: 24px;
+  font-weight: bold;
+  font-family: PlayfairDisplay;
+  letter-spacing: 0;
+  line-height: 30px;
+} */
+
+/* .divider {
+  margin-top: 16px;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(10, 33, 64, 0.7);
+  margin-bottom: 16px;
+} */
+
+/* .content {
+  font-family: "Recursive";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  color: var( --text-color);
+} */
+
+/* .advertise {
+  height: 294px;
+  width: 100%;
+  background-color: rgba(10, 33, 64, 0.15);
+} */
+
+/* .highlights {
+  color: #012042;
+  font-family: "Playfair Display";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 27px;
+} */
+
+/* .cardphoto{
+  background-color: rgba(10, 33, 64, 0.15);
+  height: 107px;
+  width: 107px;
+  margin: 8px;
+}
+
+.card {
+  height: 128px;
+  width: 100%;
+  border: 1px solid #d9e1e9;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-top: 8px;
+}
+
+.card-text {
+  padding: 16px;
+  font-family: "Recursive";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  color: var( --text-color);
+} */
+
+/* .author {
+  height: 136px;
+  width: 100%;
+  background-color: rgba(10, 33, 64, 0.15);
+}
+
+.label {
+  color: var( --text-color);
+  font-family: "Recursive";
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 17px;
+} */
+
+/* .author-list {
+  display: flex;
+}
+
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.spacing {
+  color: #006dff;
+}
+
+.updated-list {
+  margin-top: 20px;
+}
+
+.address {
+  color: rgba(10, 33, 64, 0.7);
+  font-family: "Recursive";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 21px;
+} */
+
+.paragraph {
+  font-family: CrimsonPro;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+/* .rjanigandha {
+  height: 620px;
+} */
+
+.extramargin {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* .addheading {
+  color: var( --text-color);
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 22px;
+} */
+
+.marginspace {
+  margin-top: 32px;
+}
+
+.textbackground {
+  width: 100%;
+  background-color: rgba(10, 33, 64, 0.7);
+}
+
+.colorchange {
+  color: #ffffff;
+  text-align: center;
+  padding: 24px;
+}
+
+.helightbold {
+  font-weight: bold;
+}
+
+.bullets {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  text-indent: -5px;
+}
+
+.bullets li::before {
+  content: "\2022";
+  color: #ed2129;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.numbers {
+  counter-reset: number;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.numbers li::before{
+  counter-increment: number;
+  content: counter(number)"\a0";
+}
+
+/* .card-two{
+  box-sizing: border-box;
+  height: 325px;
+  width: 100%;
+  border: 1px solid #D9E1E9;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 8px 0 rgba(144,164,183,0.24);
+} */
+
+/* .chinanews{
+  height: 185px;
+  width: 100%;
+  background-color: rgba(10, 33, 64, 0.7);
+} */
+
+/* .smalltext{
+  color: rgba(10,33,64,0.7);
+  font-family: "Recursive";
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 14px;
+} */
+
+/* .tags{
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* .tagsname{
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgba(10,33,64,0.15);
+  margin-right: 10px;
+  margin-top: 10px;
+} */
+
+/* .cardcontent{
+  display: flex;
+}
+
+.cardcontenttext{
+  height: 72px;
+  width: 197px;
+  color: #0A2140;
+  font-family: "Playfair Display";
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: 8px;
+} */
